@@ -1,4 +1,4 @@
-# Swift Study <img src = "https://blog.tomasmahrik.com/wp-content/uploads/2015/06/swift.jpg" width = 100  align = right>
+# Swift Study <img src = "https://blog.tomasmahrik.com/wp-content/uploads/2015/06/swift.jpg" width = 150  align = right>
 
 > `Swift`스터디를 시작합니다. `Swift Basic`부터 `RxSwift`까지 다뤄볼 예정입니다.
 
@@ -20,10 +20,17 @@
 
 * **Section 1: Swift**
 
-> | Chapter | Subject                            | Note | Presenter                                |
-> | ------- | ---------------------------------- | ---- | ---------------------------------------- |
-> | 1       | 클로저와 고차함수                          |      | [OhKanghoon](https://github.com/OhKanghoon) |
-> | 2       | ARC (Automatic Reference Counting) |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | Chapter | Subject                                  | Note | Presenter                                |
+> | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
+> | 1       | [클로저와 고차함수]()                            |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 2       | [ARC (Automatic Reference Counting)]()   |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 3       | [POP (Protocol Oriented Programming)]()  |      | [l-hyejin](https://github.com/l-hyejin)  |
+> | 4       | [Access Control / Swift Code Convention]() |      | [ksujin](https://github.com/ksujin)      |
+> | 5       | [GCD 응용, Operation Queue]()              |      | [LeeGwangYong](https://github.com/LeeGwangYong) |
+> | 6       | [KVO, Notification Center]()             |      | [91haba](https://github.com/91haba)      |
+> | 7       | [iPhone X 대응하기 ( ios 9 이상 )]()           |      | [shindk8659](https://github.com/shindk8659) |
+> | 8       | [Alamofire, Codable 구조]()                |      | [few28](https://github.com/few28)        |
+> | 9       | [iOS Architecture (MVC, MVVM - Code base)]() |      | [pkse1213](https://github.com/pkse1213)  |
 
 
 
