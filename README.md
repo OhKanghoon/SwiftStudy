@@ -22,7 +22,7 @@
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
-> | 1       | [클로저와 고차함수]()                            |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 1       | [클로저와 고차함수](https://github.com/OhKanghoon/SwiftStudy/blob/master/Closure_High_order_function.md) |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 2       | [ARC (Automatic Reference Counting)]()   |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 3       | [POP (Protocol Oriented Programming)]()  |      | [l-hyejin](https://github.com/l-hyejin)  |
 > | 4       | [Access Control / Swift Code Convention]() |      | [ksujin](https://github.com/ksujin)      |
