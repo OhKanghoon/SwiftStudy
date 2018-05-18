@@ -175,7 +175,7 @@ print(sum) // 9
 // 초깃값이 0이고 정수 배열의 모든 값을 더함
 let sum: Int = numbers.reduce(0, { (first: Int, second: Int) -> Int in
     // log를 확인해보자
-    print("(first) + (second)")
+    print("\(first + second)")
     return first + second
 })
 
