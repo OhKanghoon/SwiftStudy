@@ -150,7 +150,7 @@ func accessStuff() {
 
 *  이때 타입의 접근 제어 레벨은 타입의 멤버(프로퍼티, 메소드, 초기화, 서브스크립트)의 기본 접근 레벨에 영향을 미침.
 
-  **`private`** 또는 **`file private`**으로 타입의 접근 제어 레벨을 정의하면, 멤버들의 기본 접근 레벨은 **`private`** 또는 **`file private`**이 될 것. 
+  **`private`** 또는 **`file private`** 으로 타입의 접근 제어 레벨을 정의하면, 멤버들의 기본 접근 레벨은 **`private`** 또는 **`file private`** 이 될 것. 
 
   > **주의** : private class의 멤버라고 해서 그 멤버 자체의 접근 레벨이 private이 된다는 것이 아니라, private class 안에 들어 있는 것이기 때문에 기본 접근 레벨에 영향을 미치는 것. 
 
@@ -200,9 +200,9 @@ func accessStuff() {
 
 ## 열거형 타입
 
-* 열거형의 각 **`case`**들은 자동적으로 열거형과 같은 레벨을 받음
+* 열거형의 각 **`case`** 들은 자동적으로 열거형과 같은 레벨을 받음
 
-* 열거형의 각 **`case`**들에 대한 접근 레벨을 다르게 지정할수 없음
+* 열거형의 각 **`case`** 들에 대한 접근 레벨을 다르게 지정할수 없음
 
   ~~~swift
   //case들의 접근 레벨은 모두 public
@@ -245,11 +245,11 @@ func accessStuff() {
 
 
 
-##상수, 변수, 프로퍼티, 서브스크립트 
+## 상수, 변수, 프로퍼티, 서브스크립트 
 
 * 상수, 변수, 프로퍼티는 타입보다 더 **`public`** 할 수 없음.
 
-  즉,  **`private`**타입으로 **`public`**프로퍼티를 작성하는 것은 유효하지 않음.
+  즉,  **`private`** 타입으로 **`public`** 프로퍼티를 작성하는 것은 유효하지 않음.
 
   ~~~swift
   //가능
@@ -262,9 +262,9 @@ func accessStuff() {
 
 ## Getter & Setter
 
-* 상수, 변수, 프로퍼티, 서브스크립트에 대한 **`getter`**들과 **`setter`**들은 자동으로 그가 속한 것과 같은 접속 레벨.
+* 상수, 변수, 프로퍼티, 서브스크립트에 대한 **`getter`** 들과 **`setter`** 들은 자동으로 그가 속한 것과 같은 접속 레벨.
 
-* 변수, 프로퍼티, 서브스크립트의 읽기-쓰기를 제한하기 위해, **`setter`**에 해당 **`getter`**보다 낮은(lower) 접근 레벨을 줄 수 있음
+* 변수, 프로퍼티, 서브스크립트의 읽기-쓰기를 제한하기 위해, **`setter`** 에 해당 **`getter`** 보다 낮은(lower) 접근 레벨을 줄 수 있음
 
   ~~~swift
   struct TrackedString {
@@ -290,7 +290,7 @@ func accessStuff() {
   > /*stringToEdit.numberOfEdits = 5 */
   > ~~~
 
-* 필요한 경우, **`getter`**와 **`setter`** 모두에 대한 명시적인 접근 레벨 할당 가능.  
+* 필요한 경우, **`getter`** 와 **`setter`** 모두에 대한 명시적인 접근 레벨 할당 가능.  
 
   ~~~swift
   public struct TrackedString {
@@ -315,9 +315,9 @@ func accessStuff() {
 
 ## 기본 초기화
 
-* 기본 초기화는 타입을 **`public`**으로 정의하지 않으면, 타입 초기화와 같은 접근 레벨을 가짐.
+* 기본 초기화는 타입을 **`public`** 으로 정의하지 않으면, 타입 초기화와 같은 접근 레벨을 가짐.
 
-* **`public`**으로 정의된 타입의 경우, 기본 초기화는 **`internal`**
+* **`public`** 으로 정의된 타입의 경우, 기본 초기화는 **`internal`**
 
   따라서 **`public`** 타입을 다른 모듈에서 사용시, 기본 초기화 이용하려면 타입 정의시에 **`public`** 접근 레벨의 기본 초기화 제공 필요.
 
@@ -421,7 +421,7 @@ func accessStuff() {
 
 ## General Conventions
 
-* ####case convention 따르기
+* #### case convention 따르기
 
   > * 타입이나 프로토콜의 이름은 UpperCamelCase로, 그 외는 모두 lowerCamelCase 로 사용
   >
