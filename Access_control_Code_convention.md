@@ -31,13 +31,13 @@
 ## 접근 레벨 (Access Level) 
 
 * Swift 에서는 5가지의 접근 레벨이 존재
-  1. open
-  2. public
-  3. internal
-  4. fileprivate
-  5. private
+1. open
+2. public
+3. internal
+4. fileprivate
+5. private
 
-  > **`open`** 접근이 가장 높은(제한을 최소화) 접근 레벨이고, **`private`** 접근은 가장 낮은(제한이 가장많음) 접근 레벨. 
+> **`open`** 접근이 가장 높은(제한을 최소화) 접근 레벨이고, **`private`** 접근은 가장 낮은(제한이 가장많음) 접근 레벨. 
 
 * 이러한 접근 레벨은 요소가 정의된 소스파일이나, 모듈과 관련 됨. 
 
@@ -315,7 +315,7 @@ func accessStuff() {
 
 ## 기본 초기화
 
-* 기본 초기화는 타입을 **`public`** 으로 정의하지 않으면, 타입 초기화와 같은 접근 레벨을 가짐.
+* 기본 초기화는 타입을 **`public`** 으로 정의하지 않으면, 초기화하는 타입과 같은 접근 레벨을 가짐.
 
 * **`public`** 으로 정의된 타입의 경우, 기본 초기화는 **`internal`**
 
@@ -347,7 +347,7 @@ func accessStuff() {
 
 ## 프로토콜
 
-* 프로토콜 내의 요구 사항에 대한 접근 레벨은 프로토콜과같은 접근 레벨로 자동으로 설정. 
+* 프로토콜 내의 요구 사항에 대한 접근 레벨은 프로토콜과 같은 접근 레벨로 자동으로 설정. 
 
 * 지원하는 프로토콜과 다른 접근 레벨로 프로토콜 요구사항을 설정 불가.
 
@@ -591,7 +591,7 @@ func accessStuff() {
   >   `a.fadeFrom(red: b, green: c, blue: d)`
   >
 
-- ####  만약 첫번째 인자가 **grammatical phrase**를 만들때는 레이블을 제거  
+- ####  만약 첫번째 인자가 **grammatical phrase**를 만들때는 label을 제거  
 
   > `x.addSubview(y)`
 
@@ -612,4 +612,4 @@ func accessStuff() {
   > words.split(12)       Split the number 12?
   > ~~~
 
-- #### 다른 모든 인자에 대해서는 라벨 설정
+- #### 다른 모든 인자에 대해서는 label 설정
