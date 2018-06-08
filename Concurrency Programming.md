@@ -2,13 +2,13 @@
 
 - **Main Thread**에서 User Interface의 모든 코드를 실행한다. 
   Data transform이나 image processing과 같은 작업을 main thread에서 진행하면, User Interface는 느려지거나 중지된다.
-  ![image-20180607161856008](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607161856008.png)
-  ![image-20180607162516697](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607162516697.png)
+  ![image-20180607161856008](https://ws1.sinaimg.cn/large/006tNc79gy1fs3nvtdjrgj30ha0byzl1.jpg)
+  ![image-20180607162516697](https://ws4.sinaimg.cn/large/006tNc79gy1fs3nvs75pyj30pq04cwey.jpg)
 
 - **Concurrency**를 이용하자. 
   thread를 이용한다. 하지만, 코드의 불변성 유지가 어렵다.
   GCD 라는 Concurrency Library를 사용
-  ![image-20180607162055807](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607162055807.png)
+  ![image-20180607162055807](https://ws3.sinaimg.cn/large/006tNc79gy1fs3nvvbp4fj30yc0h0abx.jpg)
 
 
 ## 용어 정리
@@ -171,7 +171,7 @@
 
         하지만, **Deadlock**이 발생할 수도 있다.
 
-        ![image-20180607164255911](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607164255911.png)	
+        ![image-20180607164255911](https://ws2.sinaimg.cn/large/006tNc79gy1fs3nvsteo6j30ti06g3z3.jpg)	
 
         ```swift
         class MyObject {
@@ -331,11 +331,11 @@
       2. Subsystem으로 나눈다.
       3. 각 Subsystem에 Dispatch Queue를 부여한다. 너무 많은 queue와 thread는 성능 저하의 주범이다.
 
-      ![image-20180607163809964](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607163809964.png)
+      ![image-20180607163809964](https://ws1.sinaimg.cn/large/006tNc79gy1fs3nvurr7vj30d8096wfe.jpg)
 
     - Grouping, Chaing
 
-      ![image-20180607163955267](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607163955267.png)
+      ![image-20180607163955267](https://ws3.sinaimg.cn/large/006tNc79gy1fs3nvu8sggj30pk0d4dgl.jpg)
 
       - Chaining
 
@@ -353,7 +353,7 @@
           }
           ```
 
-      ![image-20180607163048659](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607163048659.png)
+      ![image-20180607163048659](https://ws1.sinaimg.cn/large/006tNc79gy1fs3nvvmksqj30h808qaau.jpg)
 
     - Grouping
 
@@ -375,7 +375,7 @@
         }
         ```
 
-    ![image-20180607164053644](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180607164053644.png)
+    ![image-20180607164053644](https://ws4.sinaimg.cn/large/006tNc79gy1fs3nvtvuglj30xe0ds76a.jpg)
 
   - Dispatch Delay
 
