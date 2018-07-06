@@ -86,7 +86,7 @@ unit4A = Apartment(unit: "4A")
 
 두 인스턴스를 생성하면 john은 Person 인스턴스에 대한 강한 참조를 가지고, unit4A는 Apartment 인스턴스에 대한 강한 참조를 지닌다.
 
-![1](/Users/kanghoon/SwiftStudy/images/ARC/1.png)
+![1](/images/ARC/1.png)
 
 ```swift
 john!.apartment = unit4A
@@ -97,7 +97,7 @@ unit4A!.tenant = john
 
 따라서 `john` 을 참조 중단 하더라도 참조 수가 0으로 떨어지지 않기 때문에 **ARC**에 의해 할당 취소되지 않습니다.
 
-![2](/Users/kanghoon/SwiftStudy/images/ARC/2.png)
+![2](/images/ARC/2.png)
 
 
 
@@ -112,7 +112,7 @@ unit4A = nil
 
 
 
-![3](/Users/kanghoon/SwiftStudy/images/ARC/3.png)
+![3](/images/ARC/3.png)
 
 
 
@@ -163,7 +163,7 @@ unit4A!.tenant = john
 
 만약 `john 변수` 가 강한 참조를 중단한다면 `Person 인스턴스` 에 대한 **강한 참조**가 없어지게 된다.
 
-![4](/Users/kanghoon/SwiftStudy/images/ARC/4.png)
+![4](/images/ARC/4.png)
 
 
 
@@ -177,7 +177,7 @@ john = nil
 
 `Person 인스턴스` 에 대한 강한 참조가 없어지기 때문에 **할당이 해제**된다.
 
-![5](/Users/kanghoon/SwiftStudy/images/ARC/5.png)
+![5](/images/ARC/5.png)
 
 이제 `Apartment 인스턴스` 에 대한 강한 참조는 `unit4A 변수` 에서만 나타납니다.
 
