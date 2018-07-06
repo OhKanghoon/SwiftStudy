@@ -34,7 +34,7 @@
 
   
 
-  ![9983213359FC957B05](/Users/shindongkyu/Desktop/9983213359FC957B05.png)
+  ![6](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/6.png)
 
   
 
@@ -46,11 +46,15 @@
 
   애플 공식 가이드 문서를 보면 
 
-  
+  ![5](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/5.png)
 
   
 
-  ![스크린샷 2018-07-06 오전 5.52.11](/Users/shindongkyu/Documents/스크린샷 2018-07-06 오전 5.52.11.png)
+  ![4](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/4.png)
+
+  
+
+  
 
 
 
@@ -70,11 +74,15 @@ Safearea 를 적용 하지 않고 superview 에  constraints 를 걸 경우
 
 iPhone 8 크기에서는 
 
-![스크린샷 2018-07-06 오전 6.41.27](/Users/shindongkyu/Documents/스크린샷 2018-07-06 오전 6.41.27.png)
+![2](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/2.png)
+
+
 
 iPhone X 에서는 
 
-![스크린샷 2018-07-06 오전 6.34.25](/Users/shindongkyu/Documents/스크린샷 2018-07-06 오전 6.34.25.png)
+![1](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/1.png)
+
+
 
 이런식으로  superview 에 top,bottom constraints를 붙이면 iPhone 8 의 하단에서만 제대로 보여지게된다 .
 
@@ -84,9 +92,11 @@ iPhone X 에서는
 
 iPhone X 에서는 상단 뿐만아니라 하단도 신경써야한다. 홈버튼이 없는 대신에 둥근 모서리와 가운데 홈 제스처를 사용하기 때문에 superview가 아닌 safearea에 꼭 맞추어 주어야한다.
 
+![3](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/3.png)
 
 
-![스크린샷 2018-07-06 오전 6.36.25](/Users/shindongkyu/Documents/스크린샷 2018-07-06 오전 6.36.25.png)
+
+
 
 safeArea 로 맞춘 iPhoneX 대응화면
 
@@ -96,7 +106,9 @@ iPhoneX 에서는 상단바와 하단 홈 제스처를 위한 공간 높이가 4
 
 그러므로 아래위로 44 의 공간은 앞서 말했듯이 화면을 보여줄수 있되 제스처나 , 버튼 액션 등을 넣지 않는것이 좋다고 한다.
 
-![스크린샷 2018-07-06 오전 7.19.42](/Users/shindongkyu/Documents/스크린샷 2018-07-06 오전 7.19.42.png)
+![스크린샷 2018-07-06 오전 7.19.42](/Users/shindongkyu/Desktop/Develop/swiftstudy/SwiftStudy/img/스크린샷 2018-07-06 오전 7.19.42.png)
+
+
 
 
 
@@ -114,6 +126,24 @@ iPhoneX 에서는 상단바와 하단 홈 제스처를 위한 공간 높이가 4
 ~~~
 
 
+
+마지막으로 iPhoneX 가로 세로 모드의 레이아웃 가이드 이다!
+
+![가로모드 레이아웃가이드](/Users/shindongkyu/Desktop/가로모드 레이아웃가이드.jpg)
+
+![10](/Users/shindongkyu/Desktop/10.jpg)
+
+
+
+
+
+
+
+
+
+참고 사이트 : http://blog.rightbrain.co.kr/?p=8499
+
+​		 https://developer.apple.com/design/human-interface-guidelines/ios/overview/iphone-x/
 
 
 
