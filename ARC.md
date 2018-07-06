@@ -193,4 +193,4 @@ unit4A = nil
 
 `Apartment 인스턴스` 에 대한 강한 참조가 없어지기 때문에 **할당이 해제**된다.
 
-![6](/images/ARC/5.png)
+![6](/images/ARC/6.png)
