@@ -192,3 +192,5 @@ unit4A = nil
 `unit4A` 를 nil로 변경하면
 
 `Apartment 인스턴스` 에 대한 강한 참조가 없어지기 때문에 **할당이 해제**된다.
+
+![6](/images/ARC/5.png)
