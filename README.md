@@ -29,7 +29,7 @@
 > | 5       | [GCD 응용, Operation Queue](https://github.com/OhKanghoon/SwiftStudy/blob/master/Concurrency%20Programming.md)              |      | [LeeGwangYong](https://github.com/LeeGwangYong) |
 > | 6       | [KVO, Notification Center](https://github.com/OhKanghoon/SwiftStudy/blob/master/Notification%2C%20KVO.md)             |      | [91haba](https://github.com/91haba)      |
 > | 7       | [iPhone X 대응하기 ( ios 9 이상 )]()           |      | [shindk8659](https://github.com/shindk8659) |
-> | 8       | [Alamofire, Codable, Network Layer]()                |      | [few28](https://github.com/few28)        |
+> | 8       | [Alamofire, Codable, Network Layer](https://github.com/OhKanghoon/SwiftStudy/blob/master/Alamofire_Codable.md)                |      | [few28](https://github.com/few28)        |
 > | 9       | [iOS Architecture (MVC, MVVM - Code base)]() |      | [pkse1213](https://github.com/pkse1213)  |
 
 
