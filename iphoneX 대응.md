@@ -143,6 +143,33 @@ iPhoneX 에서는 상단바와 하단 홈 제스처를 위한 공간 높이가 4
 
 
 
+코드로 iPhoneX 대응하기
+
+![스크린샷 2018-07-20 오후 6.53.15](/images/iphoneX/11.jpg)
+
+
+
+```swift
+override func viewDidLoad() {
+        super.viewDidLoad()
+
+        if #available(iOS 11.0, *) {
+         
+            let guide = view.safeAreaLayoutGuide
+            
+            NSLayoutConstraint.activate([
+                btn1.bottomAnchor.constraint(equalTo: guide.bottomAnchor)
+                
+                ])
+            btn1.layer.cornerRadius = 7
+            
+        }
+```
+
+대부분 View 에 관련한 디자인을 ios11.0 일 경우 따로 처리 하여 애플 디자인 가이드에 맞게 처리한다.
+
+
+
 참고 사이트 : http://blog.rightbrain.co.kr/?p=8499
 
 ​		 https://developer.apple.com/design/human-interface-guidelines/ios/overview/iphone-x/
