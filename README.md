@@ -28,7 +28,7 @@
 > | 4       | [Access Control / Swift Code Convention](https://github.com/OhKanghoon/SwiftStudy/blob/master/Access_control_Code_convention.md) |      | [ksujin](https://github.com/ksujin)      |
 > | 5       | [GCD 응용, Operation Queue](https://github.com/OhKanghoon/SwiftStudy/blob/master/Concurrency%20Programming.md)              |      | [LeeGwangYong](https://github.com/LeeGwangYong) |
 > | 6       | [KVO, Notification Center](https://github.com/OhKanghoon/SwiftStudy/blob/master/Notification%2C%20KVO.md)             |      | [91haba](https://github.com/91haba)      |
-> | 7       | [iPhone X 대응하기 ( ios 9 이상 )]()           |      | [shindk8659](https://github.com/shindk8659) |
+> | 7       | [iPhone X 대응하기 ( ios 9 이상 )](https://github.com/OhKanghoon/SwiftStudy/blob/master/iphoneX%20%EB%8C%80%EC%9D%91.md)           |      | [shindk8659](https://github.com/shindk8659) |
 > | 8       | [Alamofire, Codable, Network Layer](https://github.com/OhKanghoon/SwiftStudy/blob/master/Alamofire_Codable.md)                |      | [few28](https://github.com/few28)        |
 > | 9       | [iOS Architecture (MVC, MVVM - Code base)]() |      | [pkse1213](https://github.com/pkse1213)  |
 
