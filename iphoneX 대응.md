@@ -145,7 +145,7 @@ iPhoneX 에서는 상단바와 하단 홈 제스처를 위한 공간 높이가 4
 
 코드로 iPhoneX 대응하기
 
-![11](/images/iphoneX/11.jpg)
+![11](/images/iphoneX/11.png)
 
 
 
