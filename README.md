@@ -38,7 +38,9 @@
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
-> | 1       | [Hello RxSwift]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 1       | [RxSwift 입문](https://medium.com/@ggaa96/rxswift-1-rxswift-%EC%9E%85%EB%AC%B8-67bfdbd91969) |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 2       | [Observable, Subject, Relay](https://medium.com/@ggaa96/rxswift-2-observable-subject-relay-8fcd9b01913d) |      | [OhKanghoon](https://github.com/OhKanghoon) |
+
 
 ## Contributors
 
